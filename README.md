@@ -186,6 +186,8 @@ This MCP server can be integrated with various AI assistants that support the Mo
       ],
       "cwd": "/Users/YOUR_USERNAME/path/to/nin-mcp-server",
       "env": {
+        "NINX_API_KEY": "your_actual_ninx_api_key",
+        "NINX_SECRET_KEY": "your_actual_ninx_secret_key",
         "BINANCE_API_KEY": "your_actual_binance_api_key",
         "BINANCE_SECRET_KEY": "your_actual_binance_secret_key",
         "GROWW_API_KEY": "your_actual_groww_api_key"
