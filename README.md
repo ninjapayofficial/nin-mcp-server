@@ -1,4 +1,4 @@
-# NIN Trade MCP Server
+# NINX MCP Server
 
 A Model Context Protocol (MCP) server that provides financial trading tools and market analysis capabilities. This server enables AI assistants to access real-time market data, execute trades, analyze portfolios, and perform comprehensive financial analysis.
 
