@@ -1,0 +1,46 @@
+# NextAuth.js Configuration
+# =============================================================================
+# NIN MCP Server - Environment Variables Template
+# =============================================================================
+# Copy this config/mcp configuration, fill in your actual values
+# DO NOT commit to version control
+
+# =============================================================================
+# Claude/MCP Client Configuration
+# =============================================================================
+```
+{
+  "mcpServers": {
+    "nin-terminal": {
+      "command": "ts-node",
+      "args": [
+        "/Users/NANDA/Documents/Development/NIN/nin-terminal/server/mcp-server-sdk.ts"
+      ],
+      "cwd": "/Users/NANDA/Documents/Development/NIN/nin-terminal",
+      "env": {
+        "BINANCE_API_KEY": "z23YlNLAzD8TOFnvGr37wdnduhf3ee8hehdch8eufhgvrubyhd8hr6bIN2vNyPh4B",
+        "BINANCE_SECRET_KEY": "0d9l3IEZSqTBN6xdnwnfchuehfuenfncjenjcnejnjnicedZdShYbmNRs0aOildUC7",
+        "GROWW_API_KEY": "eyJraWQiOiJaTUtjVXciLCJhbGciOiJFUzI1NiJ9.eyJleHAiOjE3NDgxMzMwMDAsImlhdCI6MTc0ODA5NzM1MywibmJmIjoxNzQ4MDk3MzUzLCJzdWIiOiJ7XCJ0b2tlblJlZklkXCI6bnVsbCxcInZlbmRvckludGVncmF0aW9uS2V5XCI6XCJlMzFmZjIzYjA4NmI0MDZjODg3NGIyZjZkODQ5NTMxM1wiLFwidXNlckFjY291bnRJZFwiOlwiOWNkYTA1OTAtZjQ0Mi00MjBkLWI3NmQtZjRmNjQxNmQ4NDFiXCIsXCJkZXZpY2VJZFwiOlwiZTY0ZGNmMTEtNzU4MC01NzRjLTgxNTEtNzRmZGFhOGQ0NGJmXCIsXCJzZXNzaW9uSWRcIjpcIjQ3YjNkNDdiLTYzZmEtNDBmZi05NGM4LThlNzY2OTMwYzdiNlwiLFwiYWRkaXRpb25hbERhdGFcIjpcIno1NC9NZzltdjE2WXdmb0gvS0EwYkZReVVvNkc4cjJtN2dsdU54MFEzUjVYeVpHZmF5Odjceicj8s9tcIixcInJvbGVcIjpcIm9yZGVyLWJhc2ljLGxpdmVfZGF0YS1iYXNpYyxub25fdHJhZGluZy1iYXNpY1wiLFwidmFsaWRJcHNcIjpcIlwiLFwic291cmNlSXBBZGRyZXNzXCI6XCIyMjMuMTg1LjQ5LjU3LDE3Mi43MC4yMTguNDYsMzUuMjQxLjIzLjEyM1wiLFwidHdvRmFFeHBpcnlUc1wiOjE3NDgxMzMwMDAwMDB9IiwiaXNzIjoiYXBleC1hdXRoLXByb2QtYXBwIn0.yL1O9RN36v__tFIEqv5oRXbcqHyN28DuZBke-fo_nvMXqpZWdk4zhJQfXaKKU3FovgAzjowjdoijciwjci9"
+      }
+    }
+  }
+}
+ ```
+
+# =============================================================================
+# OpenAI Configuration
+# =============================================================================
+OPENAI_API_KEY=your-openai-api-key
+
+# =============================================================================
+# Server Configuration
+# =============================================================================
+
+# =============================================================================
+# Trading APIs (if using)
+# =============================================================================
+# BINANCE_API_KEY=your-binance-api-key
+# BINANCE_SECRET_KEY=your-binance-secret-key
+# KITE_API_KEY=your-kite-api-key
+# KITE_SECRET_KEY=your-kite-secret-key
+
